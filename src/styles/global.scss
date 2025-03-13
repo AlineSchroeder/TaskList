@@ -1,0 +1,18 @@
+@use "./abstracts/variables";
+@use "./base/reset";
+@use "./base/typography";
+@use "./components/button";
+
+body {
+  background-color: variables.$background-color-dark;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}

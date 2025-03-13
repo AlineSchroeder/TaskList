@@ -1,0 +1,16 @@
+@use "../abstracts/variables";
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+
+  svg:hover {
+    transform: scale(1.5);
+  }
+
+  &:active svg {
+    color: variables.$primary-color-blue !important;
+  }
+}

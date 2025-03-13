@@ -1,0 +1,54 @@
+@use "./abstracts/variables" as v;
+
+.main {
+    padding: 40px;
+    background-color: v.$background-color-dark;
+    color: v.$text-color-white;
+}
+
+.main-message {
+    text-align: center;
+    margin-bottom: 8.5%;
+    padding-top: 5% ; 
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.add-task-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.add-task-row p {
+    color: v.$text-color-white;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    white-space: nowrap;
+}
+
+.add-task-row img {
+    cursor: pointer;
+    width: 15px;
+    height: auto;
+}
+
+
+.main-message {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}

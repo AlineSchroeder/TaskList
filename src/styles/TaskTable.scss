@@ -1,0 +1,41 @@
+@use "./abstracts/variables" as v;
+
+.task-table {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+thead {
+    display: table-header-group;
+}
+
+th {
+    font-size: 3rem;
+    line-height: 3.522rem;
+    font-weight: 600;
+    color: v.$text-color-white;
+    text-align: left;
+    white-space: nowrap;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #D9D9D9;
+}
+
+td {
+    font-size: 2.5rem;
+    line-height: 2.935rem;
+    color: v.$text-color-white;
+    text-align: left;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 50%; } 
+th:nth-child(2), td:nth-child(2) { width: 20%; text-align: center; }
+th:nth-child(3), td:nth-child(3) { width: 30%; text-align: right; }
